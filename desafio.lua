@@ -159,7 +159,7 @@ repeat
   
   print(potionDefine (m))
 
-  n = io.read()
+  n = io.read("*n")
 until m == "$"
 
 os.execute("cls")
